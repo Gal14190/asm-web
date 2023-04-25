@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  background-image: url("res/background.png");
+  background-repeat: round;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.top-bar {
+  width: 100%;
+  display: block;
+  overflow: hidden; 
+}
+
+.top-bar .credit-name {
+  float: left; 
+  margin-right: 10px; 
+  display: block; 
+
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+.top-bar .afeka-logo {
+  float: right; 
+  margin-right: 0; 
+}
+
+.bottom-bar {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  bottom: 0;
+}
+.bottom-bar .android-logo {
+  float: left; 
+  margin-right: 10px; 
+  display: block; 
+  text-align: left;
+}
+
+.App-header {
+  min-height: 71vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,50 @@
+.MainBox {
+    background-color: #2F2F2F;
+    border-radius: 20px;
+    width: 60vw;
+    height: 65vh;
+}
+
+.title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.row-storage {
+    width: 100%;
+  display: block;
+  margin: 20px;
+  height: 10vh;
+  overflow-y: scroll;
+}
+
+.StorageButton {
+    cursor: pointer;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-size: 18px;
+    background-color: #0E57B4;
+     width: 90px; 
+     height: 42px;
+    border-radius: 9px;
+}
+
+.StorageButton.disable {
+    background-color: #083A79;
+}
+
+label {
+    font-size: 14px;
+    text-align: center;
+    margin: 4px;
+}
+
+input {
+    margin: 10px;
+}
