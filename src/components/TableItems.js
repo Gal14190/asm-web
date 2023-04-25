@@ -11,12 +11,7 @@ function link(id, storage, name, path) {
 }
 
 function TableItems(props) {
-    var data = [
-        {id:0, name: "HDMI Cable", serialNumber: "120XA698R", description: "Gold cable htmi 10meter", storageId: 500}
-        , {id:1, name: "HDMI Cable2", serialNumber: "120XA698R", description: "Gold cable htmi 10meter", storageId: 501}
-        , {id:2, name: "HDMI Cable3", serialNumber: "120XA698R", description: "Gold cable htmi 10meter", storageId: 502}
-        , {id:3, name: "HDMI Cable34", serialNumber: "120XA698R", description: "Gold cable htmi 10meter", storageId: 502}
-    ]
+    const data = props.data;
 
     return (
         <div className="TableItems">

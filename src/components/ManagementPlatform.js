@@ -7,7 +7,7 @@ import TableItems from "./TableItems";
 import ActionBar from "./ActionBar";
 
 const data = [500,501,502];
-function ManagementPlatform() {
+function ManagementPlatform(props) {
     
 
     const [storages, setStorages] = useState({});
@@ -34,7 +34,7 @@ function ManagementPlatform() {
                 )}
             </div>
 
-            <TableItems storages={storages} />
+            <TableItems data={props.data} storages={storages} />
             <ActionBar />
         </div>
     );
