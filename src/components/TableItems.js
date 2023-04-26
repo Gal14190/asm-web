@@ -26,7 +26,7 @@ function TableItems(props) {
             {
                 data.map((element, index) => {
                     if(props.storages[element.storageId]) {
-                        return (<tr>
+                        return (<tr key={index}>
                                 <td>{element.id}</td>
                                 <td>{element.name}</td>
                                 <td>{element.serialNumber}</td>
