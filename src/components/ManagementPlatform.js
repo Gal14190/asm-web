@@ -21,6 +21,7 @@ function ManagementPlatform(props) {
     return (
         <div>
             <div className="title">Management Platform</div>
+            
             <div className="row-storage">
                 <span onClick={()=>{addStorage()}}>
                     <StorageButton number='+' select={false} />

@@ -14,7 +14,6 @@
 .row-storage {
     width: 100%;
   display: block;
-  margin: 20px;
   height: 10vh;
   overflow-y: scroll;
 }

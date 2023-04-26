@@ -11,8 +11,8 @@ function ActionBar() {
     return (
         <div className="ActionBar">
             <Link to="/additem"><img src={add} /></Link>
-            <img src={history} />
-            <img src={live} />
+            <Link to="/tracks"><img src={history} /></Link>
+            <Link to="/liveview"><img src={live} /></Link>
         </div>
     );
 }

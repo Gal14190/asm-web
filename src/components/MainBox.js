@@ -5,6 +5,7 @@ import '../style/MainBox.css'
 import ManagementPlatform from "./ManagementPlatform";
 import AddItem from "./AddItem";
 import LiveView from "./LiveView";
+import Tracks from "./Tracks";
 
 function MainBox() {
     var data = [
@@ -20,7 +21,8 @@ function MainBox() {
         <div className="MainBox">
            {params.action == "manage"?  <ManagementPlatform data={data} />
            :params.action == "additem"? <AddItem />
-           :params.action == "live"?    <LiveView data={data} />
+           :params.action == "liveview"?    <LiveView data={data} />
+           :params.action == "tracks"?    <Tracks data={data} />
            :<div/>}
         </div>
     );

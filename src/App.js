@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 import logo from './logo.svg';
 import afeka_logo from './res/afeka.png';
 import android_logo from './res/android.png';
@@ -12,12 +14,11 @@ function App() {
     <div className="App">
       <div className='top-bar'>
         <div className="credit-name">Gal Ashkenazi</div>
-        <img src={asm_logo} />
+        <Link to="/"><img src={asm_logo} /></Link>
         <img className='afeka-logo' src={afeka_logo} />
       </div>
 
       <header className="App-header">
-        
         <MainBox />
       </header>
 
