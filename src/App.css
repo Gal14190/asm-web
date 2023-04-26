@@ -2,7 +2,7 @@
   text-align: center;
   background-color: #282c34;
   background-image: url("res/background.png");
-  background-repeat: round;
+  background-size: cover;
 }
 
 .App-logo {
