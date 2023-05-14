@@ -33,7 +33,7 @@ function ManagementPlatform(props) {
     
 
     const addStorage = () => {
-        const newData = data.at(data.length - 1).id + 1;
+        const newData = Number(data.at(data.length - 1).id) + 1;
         data.push({id: newData}); 
         setValue((p)=> ([...data]))
     };
